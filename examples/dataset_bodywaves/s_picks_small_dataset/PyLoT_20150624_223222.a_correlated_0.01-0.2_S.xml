@@ -1,0 +1,2745 @@
+<?xml version='1.0' encoding='utf-8'?>
+<q:quakeml xmlns="http://quakeml.org/xmlns/bed/1.2" xmlns:q="http://quakeml.org/xmlns/quakeml/1.2">
+  <eventParameters publicID="smi:local/ae26b044-5c22-4e2b-8075-73bda642dd3f">
+    <event publicID="smi:local/20150624_223222.a">
+      <origin publicID="smi:local/ndk/C201506242232A/origin#cmtorigin">
+        <time>
+          <value>2015-06-24T22:32:22.700000Z</value>
+        </time>
+        <latitude>
+          <value>61.85</value>
+        </latitude>
+        <longitude>
+          <value>-152.01</value>
+        </longitude>
+        <depth>
+          <value>125.7</value>
+        </depth>
+      </origin>
+      <magnitude publicID="smi:local/4e83fb9f-46a6-4a8a-9c6f-4ac2bc3e0cef">
+        <mag>
+          <value>5.82</value>
+        </mag>
+        <type>Mwc</type>
+        <originID>smi:local/ndk/C201506242232A/origin#cmtorigin</originID>
+      </magnitude>
+      <pick publicID="smi:local/aadd8041-381b-41f5-b220-b46c59feb0f2">
+        <time>
+          <value>2015-06-24T22:52:34.494055Z</value>
+          <uncertainty>0.4571141258311426</uncertainty>
+          <lowerUncertainty>0.4571141258311426</lowerUncertainty>
+          <upperUncertainty>0.4571141258311426</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="CFF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/7857be46-6a44-427c-a578-94245b92ad1e">
+        <time>
+          <value>2015-06-24T22:53:21.353127Z</value>
+          <uncertainty>1.2034295978947698</uncertainty>
+          <lowerUncertainty>1.2034295978947698</lowerUncertainty>
+          <upperUncertainty>1.2034295978947698</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="CORF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/af4d1ef4-d909-465d-bcf6-d3e67fa34465">
+        <time>
+          <value>2015-06-24T22:53:12.768792Z</value>
+          <uncertainty>0.4535897654670728</uncertainty>
+          <lowerUncertainty>0.4535897654670728</lowerUncertainty>
+          <upperUncertainty>0.4535897654670728</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="CING"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/d06d8076-7b34-440a-94a1-54965b5203c4">
+        <time>
+          <value>2015-06-24T22:52:32.069637Z</value>
+          <uncertainty>0.6894221677156877</uncertainty>
+          <lowerUncertainty>0.6894221677156877</lowerUncertainty>
+          <upperUncertainty>0.6894221677156877</upperUncertainty>
+        </time>
+        <waveformID networkCode="SI" stationCode="ROSI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/85fd7f6a-bb0f-4a6e-ad6a-37aa1bf8c61d">
+        <time>
+          <value>2015-06-24T22:52:42.931560Z</value>
+          <uncertainty>0.7390799449214394</uncertainty>
+          <lowerUncertainty>0.7390799449214394</lowerUncertainty>
+          <upperUncertainty>0.7390799449214394</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE53"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/151e2583-5520-4b9a-aa38-9739d6b337b8">
+        <time>
+          <value>2015-06-24T22:52:19.761610Z</value>
+          <uncertainty>0.5180681846667452</uncertainty>
+          <lowerUncertainty>0.5180681846667452</lowerUncertainty>
+          <upperUncertainty>0.5180681846667452</upperUncertainty>
+        </time>
+        <waveformID networkCode="Z3" stationCode="A005A"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/47a91624-e8ec-4dcb-b026-e1d476c7ba56">
+        <time>
+          <value>2015-06-24T22:52:49.152988Z</value>
+          <uncertainty>0.758175438788492</uncertainty>
+          <lowerUncertainty>0.758175438788492</lowerUncertainty>
+          <upperUncertainty>0.758175438788492</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="MONC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/891fc25a-15a8-4bfa-b05a-1b26292782f0">
+        <time>
+          <value>2015-06-24T22:52:29.122042Z</value>
+          <uncertainty>0.945880982564343</uncertainty>
+          <lowerUncertainty>0.945880982564343</lowerUncertainty>
+          <upperUncertainty>0.945880982564343</upperUncertainty>
+        </time>
+        <waveformID networkCode="Z3" stationCode="A009A"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/b59cb9a5-a1d6-41e3-a4a0-d3c1936486c5">
+        <time>
+          <value>2015-06-24T22:53:06.931809Z</value>
+          <uncertainty>0.5716434292716039</uncertainty>
+          <lowerUncertainty>0.5716434292716039</lowerUncertainty>
+          <upperUncertainty>0.5716434292716039</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="OSSC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/62da6b20-3c90-49ab-b509-5706960c3e57">
+        <time>
+          <value>2015-06-24T22:52:16.656887Z</value>
+          <uncertainty>0.5943627308970495</uncertainty>
+          <lowerUncertainty>0.5943627308970495</lowerUncertainty>
+          <upperUncertainty>0.5943627308970495</upperUncertainty>
+        </time>
+        <waveformID networkCode="Z3" stationCode="A001A"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/e1664919-ece9-469e-aa1d-08c4fbd2331d">
+        <time>
+          <value>2015-06-24T22:53:28.388239Z</value>
+          <uncertainty>0.5593217871733497</uncertainty>
+          <lowerUncertainty>0.5593217871733497</lowerUncertainty>
+          <upperUncertainty>0.5593217871733497</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="INTR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0c86d1dc-fff6-445a-8b68-968e10383e8a">
+        <time>
+          <value>2015-06-24T22:53:02.986168Z</value>
+          <uncertainty>0.7840807079003055</uncertainty>
+          <lowerUncertainty>0.7840807079003055</lowerUncertainty>
+          <upperUncertainty>0.7840807079003055</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="BRIS"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/46cfbcbf-f190-463e-8f3d-0fc3cb9d5e76">
+        <time>
+          <value>2015-06-24T22:53:29.436757Z</value>
+          <uncertainty>0.6439396300204653</uncertainty>
+          <lowerUncertainty>0.6439396300204653</lowerUncertainty>
+          <upperUncertainty>0.6439396300204653</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="ROM9"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/a465e5a7-91a0-4756-bfb6-73960da9c4d5">
+        <time>
+          <value>2015-06-24T22:52:35.703258Z</value>
+          <uncertainty>0.6243670663814813</uncertainty>
+          <lowerUncertainty>0.6243670663814813</lowerUncertainty>
+          <upperUncertainty>0.6243670663814813</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="VDL"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/e8cb126d-79c9-419a-8d07-5532d95c252f">
+        <time>
+          <value>2015-06-24T22:53:27.752346Z</value>
+          <uncertainty>0.7262207531422449</uncertainty>
+          <lowerUncertainty>0.7262207531422449</lowerUncertainty>
+          <upperUncertainty>0.7262207531422449</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="CERT"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0a9263f1-0074-4bf9-bbdb-bbe2879c0020">
+        <time>
+          <value>2015-06-24T22:52:43.652631Z</value>
+          <uncertainty>0.8454877849659085</uncertainty>
+          <lowerUncertainty>0.8454877849659085</lowerUncertainty>
+          <upperUncertainty>0.8454877849659085</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE54"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c00207d8-03a7-435b-b75d-b864c8613192">
+        <time>
+          <value>2015-06-24T22:53:12.228787Z</value>
+          <uncertainty>0.6672889081904272</uncertainty>
+          <lowerUncertainty>0.6672889081904272</lowerUncertainty>
+          <upperUncertainty>0.6672889081904272</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="SSFR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/3990d7f0-22ce-4242-914c-b26d902e5188">
+        <time>
+          <value>2015-06-24T22:52:29.352099Z</value>
+          <uncertainty>1.0271443047520898</uncertainty>
+          <lowerUncertainty>1.0271443047520898</lowerUncertainty>
+          <upperUncertainty>1.0271443047520898</upperUncertainty>
+        </time>
+        <waveformID networkCode="HU" stationCode="SOP"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/d336b94e-8a27-4e89-9aff-7ea9f99b36e9">
+        <time>
+          <value>2015-06-24T22:52:02.540230Z</value>
+          <uncertainty>0.4254291392513736</uncertainty>
+          <lowerUncertainty>0.4254291392513736</lowerUncertainty>
+          <upperUncertainty>0.4254291392513736</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRB4"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/28f6c7e9-a2be-48ab-b772-5256c4ee3251">
+        <time>
+          <value>2015-06-24T22:52:00.186977Z</value>
+          <uncertainty>0.4446256442768515</uncertainty>
+          <lowerUncertainty>0.4446256442768515</lowerUncertainty>
+          <upperUncertainty>0.4446256442768515</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRA2"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/420bce5c-a7ad-4d38-92d8-82534d24f628">
+        <time>
+          <value>2015-06-24T22:52:55.753616Z</value>
+          <uncertainty>1.0308226808669212</uncertainty>
+          <lowerUncertainty>1.0308226808669212</lowerUncertainty>
+          <upperUncertainty>1.0308226808669212</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="MSSA"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/9fc1e5b7-9c1f-44c4-8f31-2547f5498d27">
+        <time>
+          <value>2015-06-24T22:53:11.033955Z</value>
+          <uncertainty>0.4704666942663484</uncertainty>
+          <lowerUncertainty>0.4704666942663484</lowerUncertainty>
+          <upperUncertainty>0.4704666942663484</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="ARVD"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/cd7816ba-2034-491e-835a-597f056c2bb4">
+        <time>
+          <value>2015-06-24T22:51:47.491626Z</value>
+          <uncertainty>0.6747190722971983</uncertainty>
+          <lowerUncertainty>0.6747190722971983</lowerUncertainty>
+          <upperUncertainty>0.6747190722971983</upperUncertainty>
+        </time>
+        <waveformID networkCode="TH" stationCode="CRUX"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/b8288236-9249-47ee-9d94-9158395cf523">
+        <time>
+          <value>2015-06-24T22:52:36.485330Z</value>
+          <uncertainty>0.7454532274171479</uncertainty>
+          <lowerUncertainty>0.7454532274171479</lowerUncertainty>
+          <upperUncertainty>0.7454532274171479</upperUncertainty>
+        </time>
+        <waveformID networkCode="HU" stationCode="MPLH"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/b374eed1-3812-4747-8c1b-b45af740ddd7">
+        <time>
+          <value>2015-06-24T22:52:28.499445Z</value>
+          <uncertainty>0.7740221157212803</uncertainty>
+          <lowerUncertainty>0.7740221157212803</lowerUncertainty>
+          <upperUncertainty>0.7740221157212803</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE36"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/70d2e6d2-9b51-4ed0-896b-3c3241f62e7f">
+        <time>
+          <value>2015-06-24T22:53:00.229180Z</value>
+          <uncertainty>0.5375760921425315</uncertainty>
+          <lowerUncertainty>0.5375760921425315</lowerUncertainty>
+          <upperUncertainty>0.5375760921425315</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="IMI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/a5c7de76-c6c8-4b36-a08d-e9cec06ca796">
+        <time>
+          <value>2015-06-24T22:51:55.693340Z</value>
+          <uncertainty>0.38299633954921974</uncertainty>
+          <lowerUncertainty>0.38299633954921974</lowerUncertainty>
+          <upperUncertainty>0.38299633954921974</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="MILB"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/18e8f4c9-904f-4c00-ad42-05863f0a55ab">
+        <time>
+          <value>2015-06-24T22:53:09.736345Z</value>
+          <uncertainty>0.6813408489438987</uncertainty>
+          <lowerUncertainty>0.6813408489438987</lowerUncertainty>
+          <upperUncertainty>0.6813408489438987</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="PARC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/fc59762d-7276-4fc7-be43-573fbbbd9903">
+        <time>
+          <value>2015-06-24T22:53:10.495377Z</value>
+          <uncertainty>0.4992765147288926</uncertainty>
+          <lowerUncertainty>0.4992765147288926</lowerUncertainty>
+          <upperUncertainty>0.4992765147288926</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="PIEI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0926b208-56fe-4027-950e-5fa432c8f389">
+        <time>
+          <value>2015-06-24T22:53:06.865346Z</value>
+          <uncertainty>0.493705820706196</uncertainty>
+          <lowerUncertainty>0.493705820706196</lowerUncertainty>
+          <upperUncertainty>0.493705820706196</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="ASQU"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c3bdf083-4891-4829-acfd-5713d3298e70">
+        <time>
+          <value>2015-06-24T22:52:04.279784Z</value>
+          <uncertainty>0.42266055248322315</uncertainty>
+          <lowerUncertainty>0.42266055248322315</lowerUncertainty>
+          <upperUncertainty>0.42266055248322315</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRB3"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/b8df2fd8-2f8f-4fe8-beda-29ca2fd7aefe">
+        <time>
+          <value>2015-06-24T22:52:39.755700Z</value>
+          <uncertainty>0.6190574925348122</uncertainty>
+          <lowerUncertainty>0.6190574925348122</lowerUncertainty>
+          <upperUncertainty>0.6190574925348122</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="VARE"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/a398863f-994d-45d4-ae3d-8e72ffc42f48">
+        <time>
+          <value>2015-06-24T22:53:25.880016Z</value>
+          <uncertainty>0.466758415760822</uncertainty>
+          <lowerUncertainty>0.466758415760822</lowerUncertainty>
+          <upperUncertainty>0.466758415760822</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="FAGN"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/a1076a48-5ec9-475b-a916-54c84a1c8008">
+        <time>
+          <value>2015-06-24T22:53:21.647326Z</value>
+          <uncertainty>0.7655974281354717</uncertainty>
+          <lowerUncertainty>0.7655974281354717</lowerUncertainty>
+          <upperUncertainty>0.7655974281354717</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="TRTR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/b9b949f8-b3b2-4d5c-9ea7-3b3c8288d80e">
+        <time>
+          <value>2015-06-24T22:53:01.637134Z</value>
+          <uncertainty>0.5861578081135338</uncertainty>
+          <lowerUncertainty>0.5861578081135338</lowerUncertainty>
+          <upperUncertainty>0.5861578081135338</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="ESCA"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/ff924aed-2a6d-43ff-b777-047e7a7b96c8">
+        <time>
+          <value>2015-06-24T22:53:29.853650Z</value>
+          <uncertainty>0.7480084853031655</uncertainty>
+          <lowerUncertainty>0.7480084853031655</lowerUncertainty>
+          <upperUncertainty>0.7480084853031655</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="VIVA"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/4458b11a-763c-4442-83c8-f0d6472dd09a">
+        <time>
+          <value>2015-06-24T22:52:26.098524Z</value>
+          <uncertainty>0.5799981174235371</uncertainty>
+          <lowerUncertainty>0.5799981174235371</lowerUncertainty>
+          <upperUncertainty>0.5799981174235371</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="SGT04"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/bd4f26c5-b71c-4bca-ab77-4ff6cf397bb2">
+        <time>
+          <value>2015-06-24T22:52:25.373111Z</value>
+          <uncertainty>0.7164375574480186</uncertainty>
+          <lowerUncertainty>0.7164375574480186</lowerUncertainty>
+          <upperUncertainty>0.7164375574480186</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="SGT03"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/47e79dc9-b800-4dae-a171-72a66079b06f">
+        <time>
+          <value>2015-06-24T22:53:06.161184Z</value>
+          <uncertainty>0.7898924976404539</uncertainty>
+          <lowerUncertainty>0.7898924976404539</lowerUncertainty>
+          <upperUncertainty>0.7898924976404539</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="PESA"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/d60cd5bd-8662-4675-871f-86cbb0d0c113">
+        <time>
+          <value>2015-06-24T22:52:46.225085Z</value>
+          <uncertainty>0.8809518817233246</uncertainty>
+          <lowerUncertainty>0.8809518817233246</lowerUncertainty>
+          <upperUncertainty>0.8809518817233246</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="OGMO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0a6da486-ccdb-47e9-8b3a-8fbe381857aa">
+        <time>
+          <value>2015-06-24T22:52:39.269403Z</value>
+          <uncertainty>1.0310176513743656</uncertainty>
+          <lowerUncertainty>1.0310176513743656</lowerUncertainty>
+          <upperUncertainty>1.0310176513743656</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="MABI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/64af4fba-2dba-49f1-a6bc-6ec80d59ba0f">
+        <time>
+          <value>2015-06-24T22:52:40.073321Z</value>
+          <uncertainty>0.7660003532034395</uncertainty>
+          <lowerUncertainty>0.7660003532034395</lowerUncertainty>
+          <upperUncertainty>0.7660003532034395</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE50"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/75213fd2-c725-4069-a380-e89a06c6ced0">
+        <time>
+          <value>2015-06-24T22:52:34.567766Z</value>
+          <uncertainty>0.8938537071145735</uncertainty>
+          <lowerUncertainty>0.8938537071145735</lowerUncertainty>
+          <upperUncertainty>0.8938537071145735</upperUncertainty>
+        </time>
+        <waveformID networkCode="SI" stationCode="MOSI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/64d97f4b-7f9a-4e87-9ea7-1e4f14c6e094">
+        <time>
+          <value>2015-06-24T22:52:59.879434Z</value>
+          <uncertainty>0.7956169497179401</uncertainty>
+          <lowerUncertainty>0.7956169497179401</lowerUncertainty>
+          <upperUncertainty>0.7956169497179401</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="SAOF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/78c8442a-d8a2-4885-93c2-72838b493ac9">
+        <time>
+          <value>2015-06-24T22:52:34.254981Z</value>
+          <uncertainty>0.6135361458494525</uncertainty>
+          <lowerUncertainty>0.6135361458494525</lowerUncertainty>
+          <upperUncertainty>0.6135361458494525</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="NALPS"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c0d75b6b-cf6b-4760-b93f-1ea63b4c5780">
+        <time>
+          <value>2015-06-24T22:52:53.674600Z</value>
+          <uncertainty>0.8462991607334056</uncertainty>
+          <lowerUncertainty>0.8462991607334056</lowerUncertainty>
+          <upperUncertainty>0.8462991607334056</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="GORR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/47600c32-4faf-4511-afbd-f28505201aa9">
+        <time>
+          <value>2015-06-24T22:52:38.587902Z</value>
+          <uncertainty>0.8675919853673203</uncertainty>
+          <lowerUncertainty>0.8675919853673203</lowerUncertainty>
+          <upperUncertainty>0.8675919853673203</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE48"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/ee7bdfb9-77c2-4530-8320-90ecf1fa187a">
+        <time>
+          <value>2015-06-24T22:52:27.953636Z</value>
+          <uncertainty>1.1070670257575987</uncertainty>
+          <lowerUncertainty>1.1070670257575987</lowerUncertainty>
+          <upperUncertainty>1.1070670257575987</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE35"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0fe19bec-d3da-4ab0-bdb3-fd450cccdbfa">
+        <time>
+          <value>2015-06-24T22:51:52.162925Z</value>
+          <uncertainty>0.7698372219855409</uncertainty>
+          <lowerUncertainty>0.7698372219855409</lowerUncertainty>
+          <upperUncertainty>0.7698372219855409</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE03"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/49cc16eb-66b8-46ab-9f7a-49beb87a79e6">
+        <time>
+          <value>2015-06-24T22:51:53.334819Z</value>
+          <uncertainty>0.6093881327828495</uncertainty>
+          <lowerUncertainty>0.6093881327828495</lowerUncertainty>
+          <upperUncertainty>0.6093881327828495</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE04"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/2318950c-a5b9-4537-9d75-25ca7ae00e11">
+        <time>
+          <value>2015-06-24T22:53:13.377541Z</value>
+          <uncertainty>0.755458577598714</uncertainty>
+          <lowerUncertainty>0.755458577598714</lowerUncertainty>
+          <upperUncertainty>0.755458577598714</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="ASSB"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/01a93ba2-5a5c-4797-8a31-1c9f55e9f6be">
+        <time>
+          <value>2015-06-24T22:53:18.854816Z</value>
+          <uncertainty>0.8455662236494962</uncertainty>
+          <lowerUncertainty>0.8455662236494962</lowerUncertainty>
+          <upperUncertainty>0.8455662236494962</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="CESX"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/2e78ca2f-9c69-41a4-892a-f1f60c4ee204">
+        <time>
+          <value>2015-06-24T22:53:24.692849Z</value>
+          <uncertainty>0.35369670056147157</uncertainty>
+          <lowerUncertainty>0.35369670056147157</lowerUncertainty>
+          <upperUncertainty>0.35369670056147157</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="AJAC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/9e5d08d3-1830-46ba-8245-5083b52f62ce">
+        <time>
+          <value>2015-06-24T22:52:57.766781Z</value>
+          <uncertainty>0.4192490724373938</uncertainty>
+          <lowerUncertainty>0.4192490724373938</lowerUncertainty>
+          <upperUncertainty>0.4192490724373938</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="OGDI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/58a25302-13c7-4c4d-9b6b-2640fb2de761">
+        <time>
+          <value>2015-06-24T22:53:22.436425Z</value>
+          <uncertainty>0.7224913762113638</uncertainty>
+          <lowerUncertainty>0.7224913762113638</lowerUncertainty>
+          <upperUncertainty>0.7224913762113638</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="CAMP"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/f11426d8-9022-4deb-8003-d0db5bf46e79">
+        <time>
+          <value>2015-06-24T22:53:11.329415Z</value>
+          <uncertainty>1.1539884633583917</uncertainty>
+          <lowerUncertainty>1.1539884633583917</lowerUncertainty>
+          <upperUncertainty>1.1539884633583917</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="ATPC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/2bbebb6b-f34e-4c9f-bc73-b698824d93c1">
+        <time>
+          <value>2015-06-24T22:51:51.806528Z</value>
+          <uncertainty>0.5663689972593551</uncertainty>
+          <lowerUncertainty>0.5663689972593551</lowerUncertainty>
+          <upperUncertainty>0.5663689972593551</upperUncertainty>
+        </time>
+        <waveformID networkCode="SX" stationCode="TANN"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/b02b4b9f-6f1a-40ee-ad84-62454faa415f">
+        <time>
+          <value>2015-06-24T22:52:15.059716Z</value>
+          <uncertainty>0.2463443041521312</uncertainty>
+          <lowerUncertainty>0.2463443041521312</lowerUncertainty>
+          <upperUncertainty>0.2463443041521312</upperUncertainty>
+        </time>
+        <waveformID networkCode="Z3" stationCode="A006A"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/6d1a301d-a61f-4837-9802-3177afc73721">
+        <time>
+          <value>2015-06-24T22:51:59.770040Z</value>
+          <uncertainty>0.44445212264556316</uncertainty>
+          <lowerUncertainty>0.44445212264556316</lowerUncertainty>
+          <upperUncertainty>0.44445212264556316</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRA1"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/874f8e05-9d28-43c5-807c-1d1446ef46db">
+        <time>
+          <value>2015-06-24T22:52:33.840807Z</value>
+          <uncertainty>0.6724499714012067</uncertainty>
+          <lowerUncertainty>0.6724499714012067</lowerUncertainty>
+          <upperUncertainty>0.6724499714012067</upperUncertainty>
+        </time>
+        <waveformID networkCode="SI" stationCode="ABSI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/46eb1fe3-94aa-44a8-8a7c-0e2d0ca7c88f">
+        <time>
+          <value>2015-06-24T22:52:43.547582Z</value>
+          <uncertainty>0.519309691460145</uncertainty>
+          <lowerUncertainty>0.519309691460145</lowerUncertainty>
+          <upperUncertainty>0.519309691460145</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="GRN"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0738763d-a8d0-4b8b-bb5c-3e696b635870">
+        <time>
+          <value>2015-06-24T22:52:59.166401Z</value>
+          <uncertainty>0.693522953449107</uncertainty>
+          <lowerUncertainty>0.693522953449107</lowerUncertainty>
+          <upperUncertainty>0.693522953449107</upperUncertainty>
+        </time>
+        <waveformID networkCode="MN" stationCode="VLC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/91045c34-9d72-4322-a30e-81b138d1f84f">
+        <time>
+          <value>2015-06-24T22:52:59.920077Z</value>
+          <uncertainty>0.5410591327762416</uncertainty>
+          <lowerUncertainty>0.5410591327762416</lowerUncertainty>
+          <upperUncertainty>0.5410591327762416</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="MLYF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/1146b70b-f82d-4d14-9a41-792948498b01">
+        <time>
+          <value>2015-06-24T22:51:47.658878Z</value>
+          <uncertainty>0.5563273268207761</uncertainty>
+          <lowerUncertainty>0.5563273268207761</lowerUncertainty>
+          <upperUncertainty>0.5563273268207761</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="MOX"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c7ff90a0-a758-4088-81e7-7a1df3a69c80">
+        <time>
+          <value>2015-06-24T22:52:08.079567Z</value>
+          <uncertainty>0.26751283661767056</uncertainty>
+          <lowerUncertainty>0.26751283661767056</lowerUncertainty>
+          <upperUncertainty>0.26751283661767056</upperUncertainty>
+        </time>
+        <waveformID networkCode="GE" stationCode="STU"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0468b895-ea7d-437a-8cd0-1536c86c1f0f">
+        <time>
+          <value>2015-06-24T22:53:14.595950Z</value>
+          <uncertainty>0.6285636284208255</uncertainty>
+          <lowerUncertainty>0.6285636284208255</lowerUncertainty>
+          <upperUncertainty>0.6285636284208255</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="MGAB"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/a82b9702-80eb-4751-a802-88b612d3e62c">
+        <time>
+          <value>2015-06-24T22:53:02.409994Z</value>
+          <uncertainty>0.5580359867718137</uncertainty>
+          <lowerUncertainty>0.5580359867718137</lowerUncertainty>
+          <upperUncertainty>0.5580359867718137</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="CALF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/e8691296-0cf1-43f4-b8be-1c8d42413f74">
+        <time>
+          <value>2015-06-24T22:52:37.094246Z</value>
+          <uncertainty>0.5082876307328132</uncertainty>
+          <lowerUncertainty>0.5082876307328132</lowerUncertainty>
+          <upperUncertainty>0.5082876307328132</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="VANNI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/9adb5a14-fad7-469c-af18-486b289d077d">
+        <time>
+          <value>2015-06-24T22:53:11.791619Z</value>
+          <uncertainty>0.8166879482286958</uncertainty>
+          <lowerUncertainty>0.8166879482286958</lowerUncertainty>
+          <upperUncertainty>0.8166879482286958</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="ASEAF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c9cc7bbf-f32e-472b-8073-77c01937dcd8">
+        <time>
+          <value>2015-06-24T22:52:33.958228Z</value>
+          <uncertainty>0.7109725097266695</uncertainty>
+          <lowerUncertainty>0.7109725097266695</lowerUncertainty>
+          <upperUncertainty>0.7109725097266695</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE43"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0678dcfc-ec05-48c7-8158-bb993a74cbfb">
+        <time>
+          <value>2015-06-24T22:52:31.848685Z</value>
+          <uncertainty>0.48693412252716606</uncertainty>
+          <lowerUncertainty>0.48693412252716606</lowerUncertainty>
+          <upperUncertainty>0.48693412252716606</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE39"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/e6ea374d-beec-4845-8b64-115496b3a89d">
+        <time>
+          <value>2015-06-24T22:51:58.375677Z</value>
+          <uncertainty>0.8571974804280511</uncertainty>
+          <lowerUncertainty>0.8571974804280511</lowerUncertainty>
+          <upperUncertainty>0.8571974804280511</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE08"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/2d788879-b018-4273-8edd-6a076c1b7993">
+        <time>
+          <value>2015-06-24T22:52:41.572064Z</value>
+          <uncertainty>1.1296799081153597</uncertainty>
+          <lowerUncertainty>1.1296799081153597</lowerUncertainty>
+          <upperUncertainty>1.1296799081153597</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="MAGA"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0fe3bf41-f6b4-4137-b6eb-7e685dc2faca">
+        <time>
+          <value>2015-06-24T22:52:21.394203Z</value>
+          <uncertainty>0.4540121456826845</uncertainty>
+          <lowerUncertainty>0.4540121456826845</lowerUncertainty>
+          <upperUncertainty>0.4540121456826845</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="EMMET"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/6fd1126d-2433-4be2-8102-cab40d5b1260">
+        <time>
+          <value>2015-06-24T22:53:00.570173Z</value>
+          <uncertainty>0.7101190476278733</uncertainty>
+          <lowerUncertainty>0.7101190476278733</lowerUncertainty>
+          <upperUncertainty>0.7101190476278733</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="RUSF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/8cc21612-847f-463c-afc4-1d2a1f9aeec4">
+        <time>
+          <value>2015-06-24T22:52:17.721472Z</value>
+          <uncertainty>0.43180116664121254</uncertainty>
+          <lowerUncertainty>0.43180116664121254</lowerUncertainty>
+          <upperUncertainty>0.43180116664121254</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE26"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/d460284d-78a0-478f-a0a4-0a5c9c635775">
+        <time>
+          <value>2015-06-24T22:53:03.734635Z</value>
+          <uncertainty>0.5761307254200595</uncertainty>
+          <lowerUncertainty>0.5761307254200595</lowerUncertainty>
+          <upperUncertainty>0.5761307254200595</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="ARTF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/ccced2e1-f17b-4aa3-b76d-09e0dff48829">
+        <time>
+          <value>2015-06-24T22:52:01.065284Z</value>
+          <uncertainty>0.8553118309023932</uncertainty>
+          <lowerUncertainty>0.8553118309023932</lowerUncertainty>
+          <upperUncertainty>0.8553118309023932</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE10"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c0afbf54-c6e4-4119-ac78-106c05be0486">
+        <time>
+          <value>2015-06-24T22:52:09.543768Z</value>
+          <uncertainty>0.3142260048192986</uncertainty>
+          <lowerUncertainty>0.3142260048192986</lowerUncertainty>
+          <upperUncertainty>0.3142260048192986</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="WLS"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/e76b9d15-be1c-4f74-b6de-4023d26cf13d">
+        <time>
+          <value>2015-06-24T22:52:40.609382Z</value>
+          <uncertainty>0.9013692259566084</uncertainty>
+          <lowerUncertainty>0.9013692259566084</lowerUncertainty>
+          <upperUncertainty>0.9013692259566084</upperUncertainty>
+        </time>
+        <waveformID networkCode="YI" stationCode="SG10"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/8315cc66-c383-4669-a469-dacb56eb7053">
+        <time>
+          <value>2015-06-24T22:52:20.356456Z</value>
+          <uncertainty>0.47328487705725086</uncertainty>
+          <lowerUncertainty>0.47328487705725086</lowerUncertainty>
+          <upperUncertainty>0.47328487705725086</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="SULZ"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/19293f26-d560-4c28-bc93-6bcd7cf17712">
+        <time>
+          <value>2015-06-24T22:51:45.202112Z</value>
+          <uncertainty>0.5734775150015163</uncertainty>
+          <lowerUncertainty>0.5734775150015163</lowerUncertainty>
+          <upperUncertainty>0.5734775150015163</upperUncertainty>
+        </time>
+        <waveformID networkCode="TH" stationCode="BBWF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/6b9df09b-1a41-4411-b35c-b94b187113a3">
+        <time>
+          <value>2015-06-24T22:52:44.932165Z</value>
+          <uncertainty>0.8724114524256542</uncertainty>
+          <lowerUncertainty>0.8724114524256542</lowerUncertainty>
+          <upperUncertainty>0.8724114524256542</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="LSD"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0cd51019-2334-4f48-ae19-1f85fcf63261">
+        <time>
+          <value>2015-06-24T22:51:48.004399Z</value>
+          <uncertainty>0.9228343141468237</uncertainty>
+          <lowerUncertainty>0.9228343141468237</lowerUncertainty>
+          <upperUncertainty>0.9228343141468237</upperUncertainty>
+        </time>
+        <waveformID networkCode="TH" stationCode="HWTS"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/610fc830-7569-4f92-9768-41360fed6552">
+        <time>
+          <value>2015-06-24T22:52:07.005948Z</value>
+          <uncertainty>0.4415245025212963</uncertainty>
+          <lowerUncertainty>0.4415245025212963</lowerUncertainty>
+          <upperUncertainty>0.4415245025212963</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRC4"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/e3a3c032-c9f5-48d8-95bc-36b959306f73">
+        <time>
+          <value>2015-06-24T22:52:39.055250Z</value>
+          <uncertainty>0.8163836418022122</uncertainty>
+          <lowerUncertainty>0.8163836418022122</lowerUncertainty>
+          <upperUncertainty>0.8163836418022122</upperUncertainty>
+        </time>
+        <waveformID networkCode="NI" stationCode="VINO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/046daeb1-dd05-4009-ae2a-bf8c8b85c28e">
+        <time>
+          <value>2015-06-24T22:52:25.103961Z</value>
+          <uncertainty>0.5345084814196059</uncertainty>
+          <lowerUncertainty>0.5345084814196059</lowerUncertainty>
+          <upperUncertainty>0.5345084814196059</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="BRANT"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/2d00e42d-dda6-4233-a91b-8cba0129df28">
+        <time>
+          <value>2015-06-24T22:52:33.680539Z</value>
+          <uncertainty>0.2988715362324471</uncertainty>
+          <lowerUncertainty>0.2988715362324471</lowerUncertainty>
+          <upperUncertainty>0.2988715362324471</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="OG35"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/73ff07ab-8e17-4406-b5be-d4af83cb3f63">
+        <time>
+          <value>2015-06-24T22:52:09.266488Z</value>
+          <uncertainty>0.4119425637951773</uncertainty>
+          <lowerUncertainty>0.4119425637951773</lowerUncertainty>
+          <upperUncertainty>0.4119425637951773</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRC3"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/9fdd8a89-5eb4-4104-8b5a-68c1dca13a8f">
+        <time>
+          <value>2015-06-24T22:52:40.842789Z</value>
+          <uncertainty>0.7837954632845278</uncertainty>
+          <lowerUncertainty>0.7837954632845278</lowerUncertainty>
+          <upperUncertainty>0.7837954632845278</upperUncertainty>
+        </time>
+        <waveformID networkCode="ST" stationCode="DOSS"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/63da1c2c-530c-4740-9089-90197dce903a">
+        <time>
+          <value>2015-06-24T22:52:40.105788Z</value>
+          <uncertainty>0.7582459410573003</uncertainty>
+          <lowerUncertainty>0.7582459410573003</lowerUncertainty>
+          <upperUncertainty>0.7582459410573003</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="RSL"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/7d1d38ce-1619-4f1d-bf87-ce0142e3b681">
+        <time>
+          <value>2015-06-24T22:52:31.781127Z</value>
+          <uncertainty>0.4687643239557571</uncertainty>
+          <lowerUncertainty>0.4687643239557571</lowerUncertainty>
+          <upperUncertainty>0.4687643239557571</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="PANIX"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/39822d73-75e9-43fe-bd76-1e87259d2b38">
+        <time>
+          <value>2015-06-24T22:52:56.003846Z</value>
+          <uncertainty>1.0977063556504205</uncertainty>
+          <lowerUncertainty>1.0977063556504205</lowerUncertainty>
+          <upperUncertainty>1.0977063556504205</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="GRAM"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/39c56132-4ae7-4fed-85ef-672b1b497237">
+        <time>
+          <value>2015-06-24T22:52:32.172048Z</value>
+          <uncertainty>0.4430990898262088</uncertainty>
+          <lowerUncertainty>0.4430990898262088</lowerUncertainty>
+          <upperUncertainty>0.4430990898262088</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE40"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c25bf19a-fd82-4f87-a432-7abab1858a2a">
+        <time>
+          <value>2015-06-24T22:53:00.229180Z</value>
+          <uncertainty>0.5375760921425315</uncertainty>
+          <lowerUncertainty>0.5375760921425315</lowerUncertainty>
+          <upperUncertainty>0.5375760921425315</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="IMI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/f94247fa-6589-4d60-b16a-9ebae26abda3">
+        <time>
+          <value>2015-06-24T22:53:24.765826Z</value>
+          <uncertainty>0.37551259883250065</uncertainty>
+          <lowerUncertainty>0.37551259883250065</lowerUncertainty>
+          <upperUncertainty>0.37551259883250065</upperUncertainty>
+        </time>
+        <waveformID networkCode="MN" stationCode="AQU"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/26121cae-8aab-4a73-8b5c-95bad07fb9ed">
+        <time>
+          <value>2015-06-24T22:52:25.469322Z</value>
+          <uncertainty>0.891176214674302</uncertainty>
+          <lowerUncertainty>0.891176214674302</lowerUncertainty>
+          <upperUncertainty>0.891176214674302</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE32"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/e26b7891-d2e6-4551-aa9f-0b175fd684ca">
+        <time>
+          <value>2015-06-24T22:52:22.184064Z</value>
+          <uncertainty>0.43761019452636785</uncertainty>
+          <lowerUncertainty>0.43761019452636785</lowerUncertainty>
+          <upperUncertainty>0.43761019452636785</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="BALST"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c678a773-d20f-495b-add7-d3bd6e618d0c">
+        <time>
+          <value>2015-06-24T22:52:47.142806Z</value>
+          <uncertainty>0.8461694617019326</uncertainty>
+          <lowerUncertainty>0.8461694617019326</lowerUncertainty>
+          <upperUncertainty>0.8461694617019326</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="RSP"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/a891be28-9eee-4195-b390-b34e8273e11a">
+        <time>
+          <value>2015-06-24T22:52:21.674873Z</value>
+          <uncertainty>0.7300919708246247</uncertainty>
+          <lowerUncertainty>0.7300919708246247</lowerUncertainty>
+          <upperUncertainty>0.7300919708246247</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE29"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/cfe75951-83f5-4966-ad81-42f77e618b69">
+        <time>
+          <value>2015-06-24T22:52:33.852605Z</value>
+          <uncertainty>0.45076657167308903</uncertainty>
+          <lowerUncertainty>0.45076657167308903</lowerUncertainty>
+          <upperUncertainty>0.45076657167308903</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="OG02"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/b2543c77-0fdc-45f1-84a7-0aa32b3abf94">
+        <time>
+          <value>2015-06-24T22:51:54.391877Z</value>
+          <uncertainty>0.5515305715497185</uncertainty>
+          <lowerUncertainty>0.5515305715497185</lowerUncertainty>
+          <upperUncertainty>0.5515305715497185</upperUncertainty>
+        </time>
+        <waveformID networkCode="GE" stationCode="WLF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/1f756a07-6792-4c1d-a7c1-7d22256fbff7">
+        <time>
+          <value>2015-06-24T22:52:03.783189Z</value>
+          <uncertainty>0.3089581558760921</uncertainty>
+          <lowerUncertainty>0.3089581558760921</lowerUncertainty>
+          <upperUncertainty>0.3089581558760921</upperUncertainty>
+        </time>
+        <waveformID networkCode="CZ" stationCode="MORC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/ad6d5b53-3309-4764-92f2-618e4071edee">
+        <time>
+          <value>2015-06-24T22:53:26.672301Z</value>
+          <uncertainty>0.8240167569141633</uncertainty>
+          <lowerUncertainty>0.8240167569141633</lowerUncertainty>
+          <upperUncertainty>0.8240167569141633</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="MTCE"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/b40fd10c-897d-426a-be45-6d938690ec2e">
+        <time>
+          <value>2015-06-24T22:52:50.724583Z</value>
+          <uncertainty>0.4839710476835195</uncertainty>
+          <lowerUncertainty>0.4839710476835195</lowerUncertainty>
+          <upperUncertainty>0.4839710476835195</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="OGAG"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/b4c2c525-f093-4963-81d3-04848c5c00c6">
+        <time>
+          <value>2015-06-24T22:51:50.275869Z</value>
+          <uncertainty>0.5341443635184069</uncertainty>
+          <lowerUncertainty>0.5341443635184069</lowerUncertainty>
+          <upperUncertainty>0.5341443635184069</upperUncertainty>
+        </time>
+        <waveformID networkCode="TH" stationCode="PLN"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c38f3fda-0110-469a-8fd5-ab1f8623249b">
+        <time>
+          <value>2015-06-24T22:52:38.717855Z</value>
+          <uncertainty>1.0860032114048048</uncertainty>
+          <lowerUncertainty>1.0860032114048048</lowerUncertainty>
+          <upperUncertainty>1.0860032114048048</upperUncertainty>
+        </time>
+        <waveformID networkCode="ST" stationCode="GAGG"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/8a5d702f-6552-4c3b-971e-1b8c52808e41">
+        <time>
+          <value>2015-06-24T22:53:20.662245Z</value>
+          <uncertainty>0.6792789927569902</uncertainty>
+          <lowerUncertainty>0.6792789927569902</lowerUncertainty>
+          <upperUncertainty>0.6792789927569902</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="MAON"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/5238abdd-1a66-4a01-be1c-6e647a3364fa">
+        <time>
+          <value>2015-06-24T22:52:05.438806Z</value>
+          <uncertainty>0.6129663148347769</uncertainty>
+          <lowerUncertainty>0.6129663148347769</lowerUncertainty>
+          <upperUncertainty>0.6129663148347769</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE14"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/4ee59775-814a-4424-a201-86c714d6b169">
+        <time>
+          <value>2015-06-24T22:52:04.640193Z</value>
+          <uncertainty>0.5478674946560764</uncertainty>
+          <lowerUncertainty>0.5478674946560764</lowerUncertainty>
+          <upperUncertainty>0.5478674946560764</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE13"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/5f2bb371-435f-49e3-bfcf-535e8231f4c3">
+        <time>
+          <value>2015-06-24T22:52:16.396176Z</value>
+          <uncertainty>0.5880804491778786</uncertainty>
+          <lowerUncertainty>0.5880804491778786</lowerUncertainty>
+          <upperUncertainty>0.5880804491778786</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE25"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/8925a051-9426-478b-9bce-40d59fd15916">
+        <time>
+          <value>2015-06-24T22:52:11.853526Z</value>
+          <uncertainty>0.35141954032766065</uncertainty>
+          <lowerUncertainty>0.35141954032766065</lowerUncertainty>
+          <upperUncertainty>0.35141954032766065</upperUncertainty>
+        </time>
+        <waveformID networkCode="CZ" stationCode="KRUC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/453bafd2-d9af-482f-9665-8ff28ec1c155">
+        <time>
+          <value>2015-06-24T22:52:38.657751Z</value>
+          <uncertainty>0.82353566163125</uncertainty>
+          <lowerUncertainty>0.82353566163125</lowerUncertainty>
+          <upperUncertainty>0.82353566163125</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="PTCC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/a7c92885-aecb-4863-a167-4499beeb8bf0">
+        <time>
+          <value>2015-06-24T22:52:34.980480Z</value>
+          <uncertainty>0.5454560037414301</uncertainty>
+          <lowerUncertainty>0.5454560037414301</lowerUncertainty>
+          <upperUncertainty>0.5454560037414301</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="FIESA"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/1d2d123c-8325-4d3f-83ef-5844dad04b42">
+        <time>
+          <value>2015-06-24T22:52:43.356092Z</value>
+          <uncertainty>0.6257953408964709</uncertainty>
+          <lowerUncertainty>0.6257953408964709</lowerUncertainty>
+          <upperUncertainty>0.6257953408964709</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="ROVR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0e130890-f274-40d4-ab63-9123b74aa1fc">
+        <time>
+          <value>2015-06-24T22:51:43.658259Z</value>
+          <uncertainty>0.6086717437748301</uncertainty>
+          <lowerUncertainty>0.6086717437748301</lowerUncertainty>
+          <upperUncertainty>0.6086717437748301</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="UBBA"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/3d0b8c8f-5515-4c3f-bcf2-a79f4b22f8e3">
+        <time>
+          <value>2015-06-24T22:52:23.930576Z</value>
+          <uncertainty>0.6354202252202323</uncertainty>
+          <lowerUncertainty>0.6354202252202323</lowerUncertainty>
+          <upperUncertainty>0.6354202252202323</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="WILA"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/355901e1-5c8e-4985-8514-8135941c43bf">
+        <time>
+          <value>2015-06-24T22:52:21.349001Z</value>
+          <uncertainty>0.4127969184537167</uncertainty>
+          <lowerUncertainty>0.4127969184537167</lowerUncertainty>
+          <upperUncertainty>0.4127969184537167</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="CHMF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/287d07c7-b5d4-4014-8862-ddfa67931c14">
+        <time>
+          <value>2015-06-24T22:53:07.472373Z</value>
+          <uncertainty>0.9933331695297429</uncertainty>
+          <lowerUncertainty>0.9933331695297429</lowerUncertainty>
+          <upperUncertainty>0.9933331695297429</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="RSM2"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/31976e4a-e567-4eaa-9de8-f26269ecb54f">
+        <time>
+          <value>2015-06-24T22:52:37.669876Z</value>
+          <uncertainty>0.38159171964860794</uncertainty>
+          <lowerUncertainty>0.38159171964860794</lowerUncertainty>
+          <upperUncertainty>0.38159171964860794</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="SIMPL"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/f3dd996d-0aaf-4c56-8e33-4067b537d90f">
+        <time>
+          <value>2015-06-24T22:53:03.312339Z</value>
+          <uncertainty>0.7734403911441078</uncertainty>
+          <lowerUncertainty>0.7734403911441078</lowerUncertainty>
+          <upperUncertainty>0.7734403911441078</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="MTRZ"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/9667696c-8840-4ecb-9d64-49ef9754f1fa">
+        <time>
+          <value>2015-06-24T22:52:57.998121Z</value>
+          <uncertainty>0.979358964825069</uncertainty>
+          <lowerUncertainty>0.979358964825069</lowerUncertainty>
+          <upperUncertainty>0.979358964825069</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="ISO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/1388d777-cbd6-4cff-83aa-656f1fcd6856">
+        <time>
+          <value>2015-06-24T22:53:09.872012Z</value>
+          <uncertainty>0.5558358711409662</uncertainty>
+          <lowerUncertainty>0.5558358711409662</lowerUncertainty>
+          <upperUncertainty>0.5558358711409662</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="NARO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/642385c6-4a13-4829-8c57-dc43e53428a5">
+        <time>
+          <value>2015-06-24T22:51:59.881143Z</value>
+          <uncertainty>0.6643841701022403</uncertainty>
+          <lowerUncertainty>0.6643841701022403</lowerUncertainty>
+          <upperUncertainty>0.6643841701022403</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE09"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/17858806-683e-4d51-b08a-d314b89c32b3">
+        <time>
+          <value>2015-06-24T22:52:38.724359Z</value>
+          <uncertainty>0.6749573165421583</uncertainty>
+          <lowerUncertainty>0.6749573165421583</lowerUncertainty>
+          <upperUncertainty>0.6749573165421583</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="OGSM"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/e001b7fb-424f-4fe3-9b22-705406ac8a9f">
+        <time>
+          <value>2015-06-24T22:52:33.738654Z</value>
+          <uncertainty>0.623575562338255</uncertainty>
+          <lowerUncertainty>0.623575562338255</lowerUncertainty>
+          <upperUncertainty>0.623575562338255</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="DAVOX"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/13dbff6f-4215-436e-a3ea-df1b8b065112">
+        <time>
+          <value>2015-06-24T22:52:30.721199Z</value>
+          <uncertainty>0.5659035810598461</uncertainty>
+          <lowerUncertainty>0.5659035810598461</lowerUncertainty>
+          <upperUncertainty>0.5659035810598461</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE38"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/ad246b39-87a9-4a25-b608-9d48adabe583">
+        <time>
+          <value>2015-06-24T22:52:18.321393Z</value>
+          <uncertainty>0.6275402558220126</uncertainty>
+          <lowerUncertainty>0.6275402558220126</lowerUncertainty>
+          <upperUncertainty>0.6275402558220126</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="METMA"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/eae03b20-932e-48cc-a920-0011101acf8d">
+        <time>
+          <value>2015-06-24T22:52:55.018692Z</value>
+          <uncertainty>0.5555174542975357</uncertainty>
+          <lowerUncertainty>0.5555174542975357</lowerUncertainty>
+          <upperUncertainty>0.5555174542975357</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="SURF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/dbc8dee9-df96-4d5c-91e1-8552eff38406">
+        <time>
+          <value>2015-06-24T22:52:34.516327Z</value>
+          <uncertainty>0.7247200566200083</uncertainty>
+          <lowerUncertainty>0.7247200566200083</lowerUncertainty>
+          <upperUncertainty>0.7247200566200083</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="SENIN"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/5a9f1c66-78a4-4bd1-999d-ddb290087817">
+        <time>
+          <value>2015-06-24T22:53:00.875765Z</value>
+          <uncertainty>0.6587049318726251</uncertainty>
+          <lowerUncertainty>0.6587049318726251</lowerUncertainty>
+          <upperUncertainty>0.6587049318726251</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="MVIF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/9a48d16d-24ac-4c26-b3f1-a790a9e82e57">
+        <time>
+          <value>2015-06-24T22:52:35.969896Z</value>
+          <uncertainty>0.6094264499076147</uncertainty>
+          <lowerUncertainty>0.6094264499076147</lowerUncertainty>
+          <upperUncertainty>0.6094264499076147</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE45"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/fb0422a5-2076-4794-9938-7ead8724ea32">
+        <time>
+          <value>2015-06-24T22:52:17.970667Z</value>
+          <uncertainty>0.9012484378473926</uncertainty>
+          <lowerUncertainty>0.9012484378473926</lowerUncertainty>
+          <upperUncertainty>0.9012484378473926</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="FUR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/25771382-41a1-4cee-97b3-4f7ac705a727">
+        <time>
+          <value>2015-06-24T22:52:11.791274Z</value>
+          <uncertainty>0.34310923448554226</uncertainty>
+          <lowerUncertainty>0.34310923448554226</lowerUncertainty>
+          <upperUncertainty>0.34310923448554226</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="BFO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/32b49872-0ed0-44a1-9e96-6a052953008d">
+        <time>
+          <value>2015-06-24T22:52:16.457475Z</value>
+          <uncertainty>0.5442037410882107</uncertainty>
+          <lowerUncertainty>0.5442037410882107</lowerUncertainty>
+          <upperUncertainty>0.5442037410882107</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="BERGE"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/3768f8b3-ad48-45df-9dde-5698d8bd4dd2">
+        <time>
+          <value>2015-06-24T22:52:43.858362Z</value>
+          <uncertainty>0.6099315846516572</uncertainty>
+          <lowerUncertainty>0.6099315846516572</lowerUncertainty>
+          <upperUncertainty>0.6099315846516572</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="TRAV"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/7372e177-cba4-4aca-ae1b-2a3fd8107f66">
+        <time>
+          <value>2015-06-24T22:52:03.783189Z</value>
+          <uncertainty>0.3089581558760921</uncertainty>
+          <lowerUncertainty>0.3089581558760921</lowerUncertainty>
+          <upperUncertainty>0.3089581558760921</upperUncertainty>
+        </time>
+        <waveformID networkCode="GE" stationCode="MORC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/66f706fd-32a2-4b55-bfbe-8d0ee3dc77d9">
+        <time>
+          <value>2015-06-24T22:52:59.277727Z</value>
+          <uncertainty>0.9596846429295173</uncertainty>
+          <lowerUncertainty>0.9596846429295173</lowerUncertainty>
+          <upperUncertainty>0.9596846429295173</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="MGRO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/79fea466-e608-4cd4-9a01-e337d1686920">
+        <time>
+          <value>2015-06-24T22:52:41.471623Z</value>
+          <uncertainty>0.6314355612916207</uncertainty>
+          <lowerUncertainty>0.6314355612916207</lowerUncertainty>
+          <upperUncertainty>0.6314355612916207</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="SATI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/04aa6a1e-65b6-4f42-b58a-3e972012bdba">
+        <time>
+          <value>2015-06-24T22:52:43.508055Z</value>
+          <uncertainty>0.5350006328619564</uncertainty>
+          <lowerUncertainty>0.5350006328619564</lowerUncertainty>
+          <upperUncertainty>0.5350006328619564</upperUncertainty>
+        </time>
+        <waveformID networkCode="MT" stationCode="GAR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/afe86ff5-8220-4593-83d0-3a36e55eafea">
+        <time>
+          <value>2015-06-24T22:52:12.105510Z</value>
+          <uncertainty>0.599874560486129</uncertainty>
+          <lowerUncertainty>0.599874560486129</lowerUncertainty>
+          <upperUncertainty>0.599874560486129</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE20"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/9686f34b-6218-4031-a81d-16f29c964817">
+        <time>
+          <value>2015-06-24T22:53:24.072225Z</value>
+          <uncertainty>0.7190241815633952</uncertainty>
+          <lowerUncertainty>0.7190241815633952</lowerUncertainty>
+          <upperUncertainty>0.7190241815633952</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="SMPL"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/e6735dcc-542d-487d-a63d-ef4793b3e695">
+        <time>
+          <value>2015-06-24T22:52:38.978498Z</value>
+          <uncertainty>0.9706273756183141</uncertainty>
+          <lowerUncertainty>0.9706273756183141</lowerUncertainty>
+          <upperUncertainty>0.9706273756183141</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="STAL"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/4bee501b-03c3-4618-9168-8402098c7a66">
+        <time>
+          <value>2015-06-24T22:52:09.409064Z</value>
+          <uncertainty>0.3911497605466757</uncertainty>
+          <lowerUncertainty>0.3911497605466757</lowerUncertainty>
+          <upperUncertainty>0.3911497605466757</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRC2"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/a8aa3d9f-6853-4f5e-bc4f-f53277acc84a">
+        <time>
+          <value>2015-06-24T22:52:34.167905Z</value>
+          <uncertainty>0.8846005948260943</uncertainty>
+          <lowerUncertainty>0.8846005948260943</lowerUncertainty>
+          <upperUncertainty>0.8846005948260943</upperUncertainty>
+        </time>
+        <waveformID networkCode="HU" stationCode="BUD"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/5f8771e2-a418-4ce7-9d86-c35b3121dd09">
+        <time>
+          <value>2015-06-24T22:53:31.004726Z</value>
+          <uncertainty>0.7746522659083795</uncertainty>
+          <lowerUncertainty>0.7746522659083795</lowerUncertainty>
+          <upperUncertainty>0.7746522659083795</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="LAV9"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c31af82e-9b62-41f9-8b21-42c5252eba66">
+        <time>
+          <value>2015-06-24T22:53:02.246894Z</value>
+          <uncertainty>0.4961166742532175</uncertainty>
+          <lowerUncertainty>0.4961166742532175</lowerUncertainty>
+          <upperUncertainty>0.4961166742532175</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="MON"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/7cbf00f1-b9a9-42b2-a777-c2a03db27fba">
+        <time>
+          <value>2015-06-24T22:52:42.806698Z</value>
+          <uncertainty>0.8945367168449812</uncertainty>
+          <lowerUncertainty>0.8945367168449812</lowerUncertainty>
+          <upperUncertainty>0.8945367168449812</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="SALO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/2e4cfa40-d11f-4178-8c5a-2c62b7f7c1f0">
+        <time>
+          <value>2015-06-24T22:52:45.339087Z</value>
+          <uncertainty>0.8784524473727194</uncertainty>
+          <lowerUncertainty>0.8784524473727194</lowerUncertainty>
+          <upperUncertainty>0.8784524473727194</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="OGS1"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/8e4e2a41-937e-41c8-87e6-6c1d144f84cc">
+        <time>
+          <value>2015-06-24T22:52:37.120479Z</value>
+          <uncertainty>0.7143948841005033</uncertainty>
+          <lowerUncertainty>0.7143948841005033</lowerUncertainty>
+          <upperUncertainty>0.7143948841005033</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE46"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/a829203a-36d4-412e-a15a-88fb347555be">
+        <time>
+          <value>2015-06-24T22:52:33.415279Z</value>
+          <uncertainty>0.6658407964270103</uncertainty>
+          <lowerUncertainty>0.6658407964270103</lowerUncertainty>
+          <upperUncertainty>0.6658407964270103</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE41"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/a0c5491b-c6ea-4d07-9fdf-44e8bc962782">
+        <time>
+          <value>2015-06-24T22:51:47.723682Z</value>
+          <uncertainty>0.44998289578285555</uncertainty>
+          <lowerUncertainty>0.44998289578285555</lowerUncertainty>
+          <upperUncertainty>0.44998289578285555</upperUncertainty>
+        </time>
+        <waveformID networkCode="TH" stationCode="GRZ1"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/5c089439-ed07-4339-a9bc-7fb881a1dcd8">
+        <time>
+          <value>2015-06-24T22:53:12.537905Z</value>
+          <uncertainty>0.7152066454103353</uncertainty>
+          <lowerUncertainty>0.7152066454103353</lowerUncertainty>
+          <upperUncertainty>0.7152066454103353</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="MURB"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/4dffa952-82fb-469c-be14-aaebb07b455c">
+        <time>
+          <value>2015-06-24T22:52:47.427746Z</value>
+          <uncertainty>0.6294921753827946</uncertainty>
+          <lowerUncertainty>0.6294921753827946</lowerUncertainty>
+          <upperUncertainty>0.6294921753827946</upperUncertainty>
+        </time>
+        <waveformID networkCode="MN" stationCode="BNI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/476d723b-084e-42c3-ad8d-299f0257cebd">
+        <time>
+          <value>2015-06-24T22:52:20.749404Z</value>
+          <uncertainty>0.5107097879691608</uncertainty>
+          <lowerUncertainty>0.5107097879691608</lowerUncertainty>
+          <upperUncertainty>0.5107097879691608</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="BOURR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/de9c7b42-733e-4792-98bf-b8de0231c6be">
+        <time>
+          <value>2015-06-24T22:52:12.508523Z</value>
+          <uncertainty>0.32485745411937944</uncertainty>
+          <lowerUncertainty>0.32485745411937944</lowerUncertainty>
+          <upperUncertainty>0.32485745411937944</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GEC2"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/08f5ff54-ab79-4662-ab9e-adda66f609a4">
+        <time>
+          <value>2015-06-24T22:53:16.053435Z</value>
+          <uncertainty>0.5161607047815697</uncertainty>
+          <lowerUncertainty>0.5161607047815697</lowerUncertainty>
+          <upperUncertainty>0.5161607047815697</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="CELB"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/3808d696-1b8c-4407-9e45-0ef1f60207a4">
+        <time>
+          <value>2015-06-24T22:53:19.700850Z</value>
+          <uncertainty>0.5811950291330115</uncertainty>
+          <lowerUncertainty>0.5811950291330115</lowerUncertainty>
+          <upperUncertainty>0.5811950291330115</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="OFFI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0c23315e-6d69-4b64-9cbd-c7d08b05d42c">
+        <time>
+          <value>2015-06-24T22:52:17.056423Z</value>
+          <uncertainty>0.3011624666386329</uncertainty>
+          <lowerUncertainty>0.3011624666386329</lowerUncertainty>
+          <upperUncertainty>0.3011624666386329</upperUncertainty>
+        </time>
+        <waveformID networkCode="CZ" stationCode="JAVC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/18402dc9-ed60-4032-9acd-7665ab490dba">
+        <time>
+          <value>2015-06-24T22:52:35.511157Z</value>
+          <uncertainty>0.5913080846478418</uncertainty>
+          <lowerUncertainty>0.5913080846478418</lowerUncertainty>
+          <upperUncertainty>0.5913080846478418</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="FUSIO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/b3c68ad8-342c-4348-bb97-2a871d5df2c6">
+        <time>
+          <value>2015-06-24T22:52:40.210867Z</value>
+          <uncertainty>0.8372942732244553</uncertainty>
+          <lowerUncertainty>0.8372942732244553</lowerUncertainty>
+          <upperUncertainty>0.8372942732244553</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="MDI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/081657cc-30c6-4fa8-9d0d-c6698b820825">
+        <time>
+          <value>2015-06-24T22:52:38.519431Z</value>
+          <uncertainty>0.7456706204321544</uncertainty>
+          <lowerUncertainty>0.7456706204321544</lowerUncertainty>
+          <upperUncertainty>0.7456706204321544</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="DIX"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/bedbdbb3-c8f9-4c20-a68e-0402a8a0c07c">
+        <time>
+          <value>2015-06-24T22:53:03.518087Z</value>
+          <uncertainty>0.7156174908194554</uncertainty>
+          <lowerUncertainty>0.7156174908194554</lowerUncertainty>
+          <upperUncertainty>0.7156174908194554</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="CRMI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/d773fa23-cd3d-4169-a22b-466e6f55f3b7">
+        <time>
+          <value>2015-06-24T22:53:10.404743Z</value>
+          <uncertainty>0.884146173890578</uncertainty>
+          <lowerUncertainty>0.884146173890578</lowerUncertainty>
+          <upperUncertainty>0.884146173890578</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="CAFI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/07914e71-5eff-4b13-b7b3-8b19323265bf">
+        <time>
+          <value>2015-06-24T22:53:13.971891Z</value>
+          <uncertainty>0.5206128637866322</uncertainty>
+          <lowerUncertainty>0.5206128637866322</lowerUncertainty>
+          <upperUncertainty>0.5206128637866322</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="SNTG"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/f992d7d6-fed1-4a4d-9b90-2bdbfd87cb89">
+        <time>
+          <value>2015-06-24T22:52:08.001193Z</value>
+          <uncertainty>0.4638345920816127</uncertainty>
+          <lowerUncertainty>0.4638345920816127</lowerUncertainty>
+          <upperUncertainty>0.4638345920816127</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRC1"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/efb463d3-07a1-4930-8761-59d996bdbe7b">
+        <time>
+          <value>2015-06-24T22:53:04.617640Z</value>
+          <uncertainty>0.6798076710850955</uncertainty>
+          <lowerUncertainty>0.6798076710850955</lowerUncertainty>
+          <upperUncertainty>0.6798076710850955</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="ARBF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/00911ebf-656c-4b45-81a8-aa48b4d4520a">
+        <time>
+          <value>2015-06-24T22:52:54.141878Z</value>
+          <uncertainty>0.541179155539857</uncertainty>
+          <lowerUncertainty>0.541179155539857</lowerUncertainty>
+          <upperUncertainty>0.541179155539857</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="PZZ"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/e3ff53b2-7f35-429a-a547-0d491a68e7ab">
+        <time>
+          <value>2015-06-24T22:52:20.253371Z</value>
+          <uncertainty>0.747954584873212</uncertainty>
+          <lowerUncertainty>0.747954584873212</lowerUncertainty>
+          <upperUncertainty>0.747954584873212</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE28"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/51f758d9-7518-40fe-9a61-dfedcabb3e8c">
+        <time>
+          <value>2015-06-24T22:52:56.684861Z</value>
+          <uncertainty>1.289068261861877</uncertainty>
+          <lowerUncertainty>1.289068261861877</lowerUncertainty>
+          <upperUncertainty>1.289068261861877</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="ENR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/862e8545-bf7a-4e8e-a7e7-f982f04f1120">
+        <time>
+          <value>2015-06-24T22:52:31.586268Z</value>
+          <uncertainty>0.5920258527085684</uncertainty>
+          <lowerUncertainty>0.5920258527085684</lowerUncertainty>
+          <upperUncertainty>0.5920258527085684</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="LLS"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/59ecf1d9-3d30-4c5b-bb9d-96bf23c0255d">
+        <time>
+          <value>2015-06-24T22:52:41.875932Z</value>
+          <uncertainty>0.8108063602961507</uncertainty>
+          <lowerUncertainty>0.8108063602961507</lowerUncertainty>
+          <upperUncertainty>0.8108063602961507</upperUncertainty>
+        </time>
+        <waveformID networkCode="NI" stationCode="CGRP"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/48d37a09-8dbc-419d-90c6-4dd32ec34c43">
+        <time>
+          <value>2015-06-24T22:52:33.546405Z</value>
+          <uncertainty>0.5971232811167648</uncertainty>
+          <lowerUncertainty>0.5971232811167648</lowerUncertainty>
+          <upperUncertainty>0.5971232811167648</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="GRIMS"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/7f1e73b4-3979-470a-84c1-9939a1b80f15">
+        <time>
+          <value>2015-06-24T22:52:26.874200Z</value>
+          <uncertainty>0.764359940744409</uncertainty>
+          <lowerUncertainty>0.764359940744409</lowerUncertainty>
+          <upperUncertainty>0.764359940744409</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE34"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/3ecbc986-4f20-4685-84b0-1da18e49c40d">
+        <time>
+          <value>2015-06-24T22:52:59.326420Z</value>
+          <uncertainty>0.7398323790965056</uncertainty>
+          <lowerUncertainty>0.7398323790965056</lowerUncertainty>
+          <upperUncertainty>0.7398323790965056</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="BLAF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/de2c40af-d427-40ae-9834-c54106b74032">
+        <time>
+          <value>2015-06-24T22:52:29.672002Z</value>
+          <uncertainty>0.4102508269157442</uncertainty>
+          <lowerUncertainty>0.4102508269157442</lowerUncertainty>
+          <upperUncertainty>0.4102508269157442</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="PLONS"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/a14c0322-05be-41e7-ad8c-806ed6803bac">
+        <time>
+          <value>2015-06-24T22:53:01.675907Z</value>
+          <uncertainty>0.6423988908834232</uncertainty>
+          <lowerUncertainty>0.6423988908834232</lowerUncertainty>
+          <upperUncertainty>0.6423988908834232</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="BURY"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/da54fd14-27e3-4c3d-9d0e-e00927a12dd6">
+        <time>
+          <value>2015-06-24T22:52:06.683539Z</value>
+          <uncertainty>1.2005829137841186</uncertainty>
+          <lowerUncertainty>1.2005829137841186</lowerUncertainty>
+          <upperUncertainty>1.2005829137841186</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE15"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/ed2cf10e-8af1-4967-9d1e-edca1334efe9">
+        <time>
+          <value>2015-06-24T22:52:35.596765Z</value>
+          <uncertainty>0.6846966142537254</uncertainty>
+          <lowerUncertainty>0.6846966142537254</lowerUncertainty>
+          <upperUncertainty>0.6846966142537254</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="FVI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/39210855-3db6-4ca3-8dbc-2c90cccdb43e">
+        <time>
+          <value>2015-06-24T22:52:14.825690Z</value>
+          <uncertainty>0.34995375028192066</uncertainty>
+          <lowerUncertainty>0.34995375028192066</lowerUncertainty>
+          <upperUncertainty>0.34995375028192066</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE23"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/28817cc4-b841-462b-95a1-28de7355f2ce">
+        <time>
+          <value>2015-06-24T22:52:02.083347Z</value>
+          <uncertainty>0.7421655633223405</uncertainty>
+          <lowerUncertainty>0.7421655633223405</lowerUncertainty>
+          <upperUncertainty>0.7421655633223405</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="TMO22"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/4f9185f6-c10a-4e72-a24b-b34e09e12e73">
+        <time>
+          <value>2015-06-24T22:52:18.279403Z</value>
+          <uncertainty>0.7392957259502535</uncertainty>
+          <lowerUncertainty>0.7392957259502535</lowerUncertainty>
+          <upperUncertainty>0.7392957259502535</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="SLE"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/998ee4a8-9781-4586-9685-a4d31b5c0bda">
+        <time>
+          <value>2015-06-24T22:52:26.594515Z</value>
+          <uncertainty>1.0637867722114873</uncertainty>
+          <lowerUncertainty>1.0637867722114873</lowerUncertainty>
+          <upperUncertainty>1.0637867722114873</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE33"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/83d9caf1-b545-4296-b8e7-cb9befaa6207">
+        <time>
+          <value>2015-06-24T22:53:10.921661Z</value>
+          <uncertainty>0.4705112567419608</uncertainty>
+          <lowerUncertainty>0.4705112567419608</lowerUncertainty>
+          <upperUncertainty>0.4705112567419608</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="AOI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/4df72553-7fe1-4865-955d-8aea1eb8aff5">
+        <time>
+          <value>2015-06-24T22:52:35.653640Z</value>
+          <uncertainty>0.5156841870633515</uncertainty>
+          <lowerUncertainty>0.5156841870633515</lowerUncertainty>
+          <upperUncertainty>0.5156841870633515</upperUncertainty>
+        </time>
+        <waveformID networkCode="MN" stationCode="TUE"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/84013459-f89e-4605-b32d-958da1bb552b">
+        <time>
+          <value>2015-06-24T22:51:45.975266Z</value>
+          <uncertainty>0.511348992967236</uncertainty>
+          <lowerUncertainty>0.511348992967236</lowerUncertainty>
+          <upperUncertainty>0.511348992967236</upperUncertainty>
+        </time>
+        <waveformID networkCode="TH" stationCode="HKWD"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/8b70eeb1-f629-42b5-8a77-f535ec244b1c">
+        <time>
+          <value>2015-06-24T22:52:33.067224Z</value>
+          <uncertainty>0.39668673299343604</uncertainty>
+          <lowerUncertainty>0.39668673299343604</lowerUncertainty>
+          <upperUncertainty>0.39668673299343604</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="AIGLE"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/67b0ee49-da76-4943-8f85-98005d866ecb">
+        <time>
+          <value>2015-06-24T22:52:20.633119Z</value>
+          <uncertainty>0.5915762051784056</uncertainty>
+          <lowerUncertainty>0.5915762051784056</lowerUncertainty>
+          <upperUncertainty>0.5915762051784056</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="ROTHE"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/359b282d-0fcc-4408-b5b2-f4420fd7a099">
+        <time>
+          <value>2015-06-24T22:52:39.957718Z</value>
+          <uncertainty>0.7724929611541094</uncertainty>
+          <lowerUncertainty>0.7724929611541094</lowerUncertainty>
+          <upperUncertainty>0.7724929611541094</upperUncertainty>
+        </time>
+        <waveformID networkCode="SI" stationCode="LUSI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c373d235-2bea-48a1-82a7-9f21a19bcd40">
+        <time>
+          <value>2015-06-24T22:52:37.887977Z</value>
+          <uncertainty>0.8490931196681345</uncertainty>
+          <lowerUncertainty>0.8490931196681345</lowerUncertainty>
+          <upperUncertainty>0.8490931196681345</upperUncertainty>
+        </time>
+        <waveformID networkCode="NI" stationCode="ACOM"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/312f06f2-c967-4ee1-a850-34347868d8bb">
+        <time>
+          <value>2015-06-24T22:53:29.512887Z</value>
+          <uncertainty>0.5267848658479958</uncertainty>
+          <lowerUncertainty>0.5267848658479958</lowerUncertainty>
+          <upperUncertainty>0.5267848658479958</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="MA9"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/23d84dec-1515-46bc-9544-42ba3d957b7f">
+        <time>
+          <value>2015-06-24T22:52:59.414437Z</value>
+          <uncertainty>0.4929546908101198</uncertainty>
+          <lowerUncertainty>0.4929546908101198</lowerUncertainty>
+          <upperUncertainty>0.4929546908101198</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="SAUF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/cdd0cc11-ffdd-41af-920b-24ff596c0391">
+        <time>
+          <value>2015-06-24T22:52:23.186638Z</value>
+          <uncertainty>0.601125756155574</uncertainty>
+          <lowerUncertainty>0.601125756155574</lowerUncertainty>
+          <upperUncertainty>0.601125756155574</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="UBR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/7946cd45-97ad-4c8e-b949-408e08d82d98">
+        <time>
+          <value>2015-06-24T22:52:43.573834Z</value>
+          <uncertainty>0.7614821736798649</uncertainty>
+          <lowerUncertainty>0.7614821736798649</lowerUncertainty>
+          <upperUncertainty>0.7614821736798649</upperUncertainty>
+        </time>
+        <waveformID networkCode="MT" stationCode="FOR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/08f07672-4b47-453b-bcfe-a5937f122cf9">
+        <time>
+          <value>2015-06-24T22:52:36.624531Z</value>
+          <uncertainty>0.7780468424826386</uncertainty>
+          <lowerUncertainty>0.7780468424826386</lowerUncertainty>
+          <upperUncertainty>0.7780468424826386</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="BERNI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/491c4efe-9b72-4a13-aff4-f1a844d2b0cb">
+        <time>
+          <value>2015-06-24T22:51:50.160429Z</value>
+          <uncertainty>0.7958789708297695</uncertainty>
+          <lowerUncertainty>0.7958789708297695</lowerUncertainty>
+          <upperUncertainty>0.7958789708297695</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="TNS"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/710b431b-91fb-40d9-b21c-3dc20d9dc49c">
+        <time>
+          <value>2015-06-24T22:52:40.563515Z</value>
+          <uncertainty>1.1965567076039791</uncertainty>
+          <lowerUncertainty>1.1965567076039791</lowerUncertainty>
+          <upperUncertainty>1.1965567076039791</upperUncertainty>
+        </time>
+        <waveformID networkCode="YI" stationCode="SG13"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/af6dfd42-5d67-46ea-bf2a-998565c3ed18">
+        <time>
+          <value>2015-06-24T22:53:28.572107Z</value>
+          <uncertainty>0.46099212230271397</uncertainty>
+          <lowerUncertainty>0.46099212230271397</lowerUncertainty>
+          <upperUncertainty>0.46099212230271397</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="PTQR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/b8b960c2-3351-4941-8163-f34a8efd0aae">
+        <time>
+          <value>2015-06-24T22:52:28.956810Z</value>
+          <uncertainty>0.440077527724265</uncertainty>
+          <lowerUncertainty>0.440077527724265</lowerUncertainty>
+          <upperUncertainty>0.440077527724265</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="MUO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/af5ab694-fed5-4521-8ef3-60393702973f">
+        <time>
+          <value>2015-06-24T22:52:27.777571Z</value>
+          <uncertainty>0.34583733376291614</uncertainty>
+          <lowerUncertainty>0.34583733376291614</lowerUncertainty>
+          <upperUncertainty>0.34583733376291614</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="TORNY"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/abfd9f0a-6cc5-4edd-8743-85efb7f8b83f">
+        <time>
+          <value>2015-06-24T22:53:10.788659Z</value>
+          <uncertainty>0.6298565872657016</uncertainty>
+          <lowerUncertainty>0.6298565872657016</lowerUncertainty>
+          <upperUncertainty>0.6298565872657016</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="APEC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/12effd1c-18d4-4ef7-9381-1c8bce94812d">
+        <time>
+          <value>2015-06-24T22:51:58.895288Z</value>
+          <uncertainty>0.44615937404973594</uncertainty>
+          <lowerUncertainty>0.44615937404973594</lowerUncertainty>
+          <upperUncertainty>0.44615937404973594</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRA3"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/9d90a678-2556-4ebc-8e29-509e20bcd1ec">
+        <time>
+          <value>2015-06-24T22:52:01.446525Z</value>
+          <uncertainty>0.5183333207768014</uncertainty>
+          <lowerUncertainty>0.5183333207768014</lowerUncertainty>
+          <upperUncertainty>0.5183333207768014</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRA4"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/f26cf691-eeec-486d-aec5-6f8744638008">
+        <time>
+          <value>2015-06-24T22:52:45.217252Z</value>
+          <uncertainty>0.8823213534125794</uncertainty>
+          <lowerUncertainty>0.8823213534125794</lowerUncertainty>
+          <upperUncertainty>0.8823213534125794</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="OGS3"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/994212b2-4ee5-4c2d-8952-641e0e1a956c">
+        <time>
+          <value>2015-06-24T22:52:06.889972Z</value>
+          <uncertainty>0.38741551505025773</uncertainty>
+          <lowerUncertainty>0.38741551505025773</lowerUncertainty>
+          <upperUncertainty>0.38741551505025773</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRB5"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/df4330ca-cb07-4f5b-a324-eb6c802f3d28">
+        <time>
+          <value>2015-06-24T22:52:23.925714Z</value>
+          <uncertainty>0.38086723086743485</uncertainty>
+          <lowerUncertainty>0.38086723086743485</lowerUncertainty>
+          <upperUncertainty>0.38086723086743485</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="DAGMA"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/cb080de4-96e0-4003-99ce-da55ec0a06fa">
+        <time>
+          <value>2015-06-24T22:52:27.108461Z</value>
+          <uncertainty>0.3915041659401177</uncertainty>
+          <lowerUncertainty>0.3915041659401177</lowerUncertainty>
+          <upperUncertainty>0.3915041659401177</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="LIENZ"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c0c5f565-845a-4ded-ac38-ab658cfea3a2">
+        <time>
+          <value>2015-06-24T22:52:32.658780Z</value>
+          <uncertainty>0.7107552846145219</uncertainty>
+          <lowerUncertainty>0.7107552846145219</lowerUncertainty>
+          <upperUncertainty>0.7107552846145219</upperUncertainty>
+        </time>
+        <waveformID networkCode="SI" stationCode="RISI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/8759c662-dfce-4c7a-9229-0e0b27a33352">
+        <time>
+          <value>2015-06-24T22:52:30.838496Z</value>
+          <uncertainty>0.5959836528944242</uncertainty>
+          <lowerUncertainty>0.5959836528944242</lowerUncertainty>
+          <upperUncertainty>0.5959836528944242</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="WIMIS"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/4b7b8b8f-7541-434a-92eb-dcdc058ccdc0">
+        <time>
+          <value>2015-06-24T22:52:42.751086Z</value>
+          <uncertainty>0.8508671404299128</uncertainty>
+          <lowerUncertainty>0.8508671404299128</lowerUncertainty>
+          <upperUncertainty>0.8508671404299128</upperUncertainty>
+        </time>
+        <waveformID networkCode="NI" stationCode="SABO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/2fda8931-59ac-4221-9308-41702cb68334">
+        <time>
+          <value>2015-06-24T22:52:47.376625Z</value>
+          <uncertainty>1.058484763719862</uncertainty>
+          <lowerUncertainty>1.058484763719862</lowerUncertainty>
+          <upperUncertainty>1.058484763719862</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="TEOL"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/46792822-8a70-4971-8cf1-dc6ce3905d28">
+        <time>
+          <value>2015-06-24T22:52:39.959417Z</value>
+          <uncertainty>0.633856830901559</uncertainty>
+          <lowerUncertainty>0.633856830901559</lowerUncertainty>
+          <upperUncertainty>0.633856830901559</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="MMK"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/3685d44d-22da-48a1-8b0d-04950b96bc0f">
+        <time>
+          <value>2015-06-24T22:53:02.399311Z</value>
+          <uncertainty>0.8436875866898623</uncertainty>
+          <lowerUncertainty>0.8436875866898623</lowerUncertainty>
+          <upperUncertainty>0.8436875866898623</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="FNVD"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/aa43dbfb-8de2-4008-a9ce-f95f30180fd1">
+        <time>
+          <value>2015-06-24T22:52:29.938148Z</value>
+          <uncertainty>0.5962403494738501</uncertainty>
+          <lowerUncertainty>0.5962403494738501</lowerUncertainty>
+          <upperUncertainty>0.5962403494738501</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE37"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/a5a60446-7d20-494a-b911-1f06eb7590f5">
+        <time>
+          <value>2015-06-24T22:51:50.541814Z</value>
+          <uncertainty>0.4027194174123538</uncertainty>
+          <lowerUncertainty>0.4027194174123538</lowerUncertainty>
+          <upperUncertainty>0.4027194174123538</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE01"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/8de3904a-16a2-4d5a-aa51-ad5f378be130">
+        <time>
+          <value>2015-06-24T22:51:56.188474Z</value>
+          <uncertainty>1.077612932412217</uncertainty>
+          <lowerUncertainty>1.077612932412217</lowerUncertainty>
+          <upperUncertainty>1.077612932412217</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE06"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/96a31904-61f5-4937-b210-8624cf8bed97">
+        <time>
+          <value>2015-06-24T22:52:35.207985Z</value>
+          <uncertainty>1.0784081466116882</uncertainty>
+          <lowerUncertainty>1.0784081466116882</lowerUncertainty>
+          <upperUncertainty>1.0784081466116882</upperUncertainty>
+        </time>
+        <waveformID networkCode="SI" stationCode="KOSI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/f66695c6-9019-466b-a391-aa70f61888ba">
+        <time>
+          <value>2015-06-24T22:53:26.213807Z</value>
+          <uncertainty>1.0109913624486313</uncertainty>
+          <lowerUncertainty>1.0109913624486313</lowerUncertainty>
+          <upperUncertainty>1.0109913624486313</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="T0110"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/ffe7b210-7156-4971-8b47-46e02b947083">
+        <time>
+          <value>2015-06-24T22:52:04.929477Z</value>
+          <uncertainty>0.4124981682144621</uncertainty>
+          <lowerUncertainty>0.4124981682144621</lowerUncertainty>
+          <upperUncertainty>0.4124981682144621</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRB2"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/fd9fec41-6d3b-4dc2-8cdf-b1b2c50968fc">
+        <time>
+          <value>2015-06-24T22:52:44.345958Z</value>
+          <uncertainty>0.67746130046454</uncertainty>
+          <lowerUncertainty>0.67746130046454</lowerUncertainty>
+          <upperUncertainty>0.67746130046454</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="MILN"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/15c83f90-ba7e-44e3-b095-8d8b5585fb0c">
+        <time>
+          <value>2015-06-24T22:52:49.735095Z</value>
+          <uncertainty>0.5418306665717791</uncertainty>
+          <lowerUncertainty>0.5418306665717791</lowerUncertainty>
+          <upperUncertainty>0.5418306665717791</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="BHB"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/e9e0e526-5d83-40c0-b69f-efb33ff766d5">
+        <time>
+          <value>2015-06-24T22:53:12.264906Z</value>
+          <uncertainty>0.9689079985870419</uncertainty>
+          <lowerUncertainty>0.9689079985870419</lowerUncertainty>
+          <upperUncertainty>0.9689079985870419</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="ATFO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/0c15e3eb-2317-48ab-80b6-75758e054819">
+        <time>
+          <value>2015-06-24T22:52:30.492981Z</value>
+          <uncertainty>0.6024015194724675</uncertainty>
+          <lowerUncertainty>0.6024015194724675</lowerUncertainty>
+          <upperUncertainty>0.6024015194724675</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="HASLI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/c125aa76-9cc5-4b43-b1dc-a6cf8d700779">
+        <time>
+          <value>2015-06-24T22:52:23.548329Z</value>
+          <uncertainty>0.7328031011063079</uncertainty>
+          <lowerUncertainty>0.7328031011063079</lowerUncertainty>
+          <upperUncertainty>0.7328031011063079</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="ZUR"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/d513fec5-0914-46bb-b04d-9c3115288b01">
+        <time>
+          <value>2015-06-24T22:52:57.723777Z</value>
+          <uncertainty>1.1003896927822405</uncertainty>
+          <lowerUncertainty>1.1003896927822405</lowerUncertainty>
+          <upperUncertainty>1.1003896927822405</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="RORO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/acd7cf86-a89b-4e08-b34a-ba653e1fa5f5">
+        <time>
+          <value>2015-06-24T22:52:41.146735Z</value>
+          <uncertainty>0.9740209440519554</uncertainty>
+          <lowerUncertainty>0.9740209440519554</lowerUncertainty>
+          <upperUncertainty>0.9740209440519554</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE51"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/d979670f-577e-4062-81c1-e51a8cd82a11">
+        <time>
+          <value>2015-06-24T22:52:25.157366Z</value>
+          <uncertainty>0.48459086222810466</uncertainty>
+          <lowerUncertainty>0.48459086222810466</lowerUncertainty>
+          <upperUncertainty>0.48459086222810466</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="SGT05"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/02b0b7d9-9895-4d82-9dd1-4f0032ed7ca7">
+        <time>
+          <value>2015-06-24T22:52:19.906967Z</value>
+          <uncertainty>0.5022292172035668</uncertainty>
+          <lowerUncertainty>0.5022292172035668</lowerUncertainty>
+          <upperUncertainty>0.5022292172035668</upperUncertainty>
+        </time>
+        <waveformID networkCode="Z3" stationCode="A024A"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/3f793368-1167-44aa-b6e5-0c6ddbbfc51f">
+        <time>
+          <value>2015-06-24T22:52:20.509620Z</value>
+          <uncertainty>0.41926926399502407</uncertainty>
+          <lowerUncertainty>0.41926926399502407</lowerUncertainty>
+          <upperUncertainty>0.41926926399502407</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="MTI02"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/64f16c0a-2f1f-4cd3-ab35-7580a151d198">
+        <time>
+          <value>2015-06-24T22:52:29.920770Z</value>
+          <uncertainty>0.6248705413273832</uncertainty>
+          <lowerUncertainty>0.6248705413273832</lowerUncertainty>
+          <upperUncertainty>0.6248705413273832</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="BNALP"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/b70a43a4-46da-4aef-abf5-3a1303cd6ea2">
+        <time>
+          <value>2015-06-24T22:52:18.903616Z</value>
+          <uncertainty>0.5271282987513859</uncertainty>
+          <lowerUncertainty>0.5271282987513859</lowerUncertainty>
+          <upperUncertainty>0.5271282987513859</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE27"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/680a89a8-4900-4891-95a3-a769372d285d">
+        <time>
+          <value>2015-06-24T22:52:56.832662Z</value>
+          <uncertainty>1.5724043581808742</uncertainty>
+          <lowerUncertainty>1.5724043581808742</lowerUncertainty>
+          <upperUncertainty>1.5724043581808742</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="GBOS"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/099f2edb-3b25-4bc6-9940-48ebd5abcbb3">
+        <time>
+          <value>2015-06-24T22:52:50.020240Z</value>
+          <uncertainty>0.5206550348089035</uncertainty>
+          <lowerUncertainty>0.5206550348089035</lowerUncertainty>
+          <upperUncertainty>0.5206550348089035</upperUncertainty>
+        </time>
+        <waveformID networkCode="GU" stationCode="RRL"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/cf14144b-45db-4b65-8f90-b61c83b14c37">
+        <time>
+          <value>2015-06-24T22:51:51.526000Z</value>
+          <uncertainty>0.45635457041501504</uncertainty>
+          <lowerUncertainty>0.45635457041501504</lowerUncertainty>
+          <upperUncertainty>0.45635457041501504</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE02"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/052ee306-fd54-43cc-9f56-a8831764dea9">
+        <time>
+          <value>2015-06-24T22:52:24.213320Z</value>
+          <uncertainty>1.267981411818931</uncertainty>
+          <lowerUncertainty>1.267981411818931</lowerUncertainty>
+          <upperUncertainty>1.267981411818931</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE31"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/8e5f09c3-2b35-4b35-88a0-ecf122a4f74d">
+        <time>
+          <value>2015-06-24T22:52:39.663821Z</value>
+          <uncertainty>0.9357025450504038</uncertainty>
+          <lowerUncertainty>0.9357025450504038</lowerUncertainty>
+          <upperUncertainty>0.9357025450504038</upperUncertainty>
+        </time>
+        <waveformID networkCode="XT" stationCode="AAE49"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/fa53b1d4-9fbc-4a5a-963d-cf3b99f46b3c">
+        <time>
+          <value>2015-06-24T22:52:55.145504Z</value>
+          <uncertainty>0.7431994294766905</uncertainty>
+          <lowerUncertainty>0.7431994294766905</lowerUncertainty>
+          <upperUncertainty>0.7431994294766905</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="QLNO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/d00a8716-6ff0-455e-8bf3-528a3f6c5b4b">
+        <time>
+          <value>2015-06-24T22:53:00.456349Z</value>
+          <uncertainty>0.890897716955754</uncertainty>
+          <lowerUncertainty>0.890897716955754</lowerUncertainty>
+          <upperUncertainty>0.890897716955754</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="BDI"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/665d8870-d579-400c-b70d-6ce561eb7c47">
+        <time>
+          <value>2015-06-24T22:52:17.784314Z</value>
+          <uncertainty>1.036577635919076</uncertainty>
+          <lowerUncertainty>1.036577635919076</lowerUncertainty>
+          <upperUncertainty>1.036577635919076</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="EMING"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/3be4489a-fadf-4905-a60d-68b4716807d3">
+        <time>
+          <value>2015-06-24T22:53:00.118624Z</value>
+          <uncertainty>0.4781840285770936</uncertainty>
+          <lowerUncertainty>0.4781840285770936</lowerUncertainty>
+          <upperUncertainty>0.4781840285770936</upperUncertainty>
+        </time>
+        <waveformID networkCode="FR" stationCode="TURF"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/dbad0153-2faf-452f-86f7-2d846d253723">
+        <time>
+          <value>2015-06-24T22:52:03.437350Z</value>
+          <uncertainty>0.4447724379110787</uncertainty>
+          <lowerUncertainty>0.4447724379110787</lowerUncertainty>
+          <upperUncertainty>0.4447724379110787</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="GRB1"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/d2181202-dd91-4fcb-8d5f-968432f38889">
+        <time>
+          <value>2015-06-24T22:52:09.216702Z</value>
+          <uncertainty>0.32757664351516336</uncertainty>
+          <lowerUncertainty>0.32757664351516336</lowerUncertainty>
+          <upperUncertainty>0.32757664351516336</upperUncertainty>
+        </time>
+        <waveformID networkCode="CZ" stationCode="VRAC"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/6f302f62-1cfc-4643-be71-e7dfca0d5776">
+        <time>
+          <value>2015-06-24T22:52:34.449472Z</value>
+          <uncertainty>0.485295816056046</uncertainty>
+          <lowerUncertainty>0.485295816056046</lowerUncertainty>
+          <upperUncertainty>0.485295816056046</upperUncertainty>
+        </time>
+        <waveformID networkCode="CH" stationCode="LAUCH"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/2a86b045-bd46-491f-9066-3a8b7c6ff515">
+        <time>
+          <value>2015-06-24T22:52:08.606164Z</value>
+          <uncertainty>0.17727953770529717</uncertainty>
+          <lowerUncertainty>0.17727953770529717</lowerUncertainty>
+          <upperUncertainty>0.17727953770529717</upperUncertainty>
+        </time>
+        <waveformID networkCode="GR" stationCode="WET"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/3e76f9cf-a5d5-4e33-b217-6394d48194a2">
+        <time>
+          <value>2015-06-24T22:53:21.413055Z</value>
+          <uncertainty>0.3220839192069745</uncertainty>
+          <lowerUncertainty>0.3220839192069745</lowerUncertainty>
+          <upperUncertainty>0.3220839192069745</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="TERO"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/7f6c194f-acea-4d5c-a8a7-30202dbea691">
+        <time>
+          <value>2015-06-24T22:53:15.934534Z</value>
+          <uncertainty>0.4800497672265345</uncertainty>
+          <lowerUncertainty>0.4800497672265345</lowerUncertainty>
+          <upperUncertainty>0.4800497672265345</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="CASP"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+      <pick publicID="smi:local/5b691214-bd02-4151-ab75-5ac26e0945b5">
+        <time>
+          <value>2015-06-24T22:53:10.370351Z</value>
+          <uncertainty>0.5858865770387811</uncertainty>
+          <lowerUncertainty>0.5858865770387811</lowerUncertainty>
+          <upperUncertainty>0.5858865770387811</upperUncertainty>
+        </time>
+        <waveformID networkCode="IV" stationCode="FROS"></waveformID>
+        <methodID>smi:local/auto</methodID>
+        <phaseHint>S</phaseHint>
+      </pick>
+    </event>
+  </eventParameters>
+</q:quakeml>
