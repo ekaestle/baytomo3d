@@ -2,13 +2,15 @@
 
 This Python program implements a rj-McMC model search for a 3D seismic tomographic model. The input data can be surface-wave phase travel times (fundamental mode, Love and Rayleigh) or teleseismic body-wave travel times (P, Pdiff, S, SKS). Other surface wave types/modes or other body wave phases can be implemented by modifications in the SurfaceWaveMoudle.py or the BodyWaveModule.py.
 
-**Alpine crust and mantle structure from 3D Monte Carlo surface- and body-wave tomography (Kästle et al., 2025, JGR Solid Earth).**
+**Alpine crust and mantle structure from 3D Monte Carlo surface- and body-wave tomography (Kästle et al., 2025, JGR Solid Earth)** - [open acces]
 
 The scripts are not fully documented, unfortunately. Some options are still under development and thus not yet properly described. If you plan to use these scripts in your work, please cite the article above. The functionality of the program goes beyond what is published in the article, there are different options that were not used (wavlets, parallel tempering, etc.). Many of those are still in an experimental stage. Feel free to contact Emanuel Kaestle (emanuel.kaestle@fu-berlin.de) if you plan to use this program.
 
 The general workflow looks like the following
 
 ![workflow](imgs/baytomo3d_workflow.pdf)
+
+The code is based on previous works by Malcom Sambridge, Thomas Bodin and others. Please refer to the above cited article for a proper list of references.
 
 ## Datasets
 
@@ -86,4 +88,4 @@ There are also some convenience scripts that can be copied to the same folder wh
 
 ## Further information
 
-Feel free to contact E. Kaestle in case of questions (emanuel.kaestle@fu-berlin.de).
+Feel free to contact E. Kaestle in case of questions (emanuel.kaestle@fu-berlin.de, emanuel-david.kaestle@bam.de).
