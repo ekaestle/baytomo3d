@@ -92,7 +92,7 @@ These examples use subsets of the original datasets used in the publication of K
 ```bash
 mpirun -np 4 python run_baytomo3d_...py
 ```
-There are also some convenience scripts that can be copied to the same folder where the run scripts are executed to a) inspect the modelsearch files of a running or already finished model search; b) plot the average model and create some informative plots; c) plot crossections similar in style to the ones in the article of Kaestle et al., 2024 (may have to be adapted to run).
+There are also some convenience scripts that can be copied to the same folder where the run scripts are executed to a) inspect the modelsearch files of a running or already finished model search; b) plot the average model and create some informative plots; c) plot crossections similar in style to the ones in the article of Kaestle et al., 2025 (may have to be adapted to run). Just open the convenience scripts in an editor of your choice to check the available options.
 
 ## Further information
 
