@@ -10,13 +10,13 @@ The code is based on previous works by Malcom Sambridge, Thomas Bodin and others
 
 ## Citation
 
-Main article (open access)
+Main article (open access)  
 Kästle, E.D.; Paffrath, M.; El-Sharkawy, A. (2025). Alpine crust and mantle structure from 3D Monte Carlo surface- and body-wave tomography. JGR Solid Earth, https://doi.org/10.1029/2024JB030101
 
-Code
+Code  
 Kästle, E.D. (2025). baytomo3d - 3D Transdimensional Reversible Jump McMC Tomography. GFZ Data Services. https://doi.org/10.5880/fidgeo.2025.011
 
-3D Alpine Model
+3D Alpine Model  
 Kästle, E.D.; Paffrath, M.; El-Sharkawy, A. (2025). Subsurface Vp and Vs model of crust and upper mantle under the Alps. GFZ Data Services. https://doi.org/10.5880/fidgeo.2025.009
 
 
@@ -43,7 +43,7 @@ The standard method for the dispersion curve calculation is currently pysurf96aa
 Alternatively, it is possible to use dccurve from the geopsy package (https://www.geopsy.org/wiki/index.php/Dispersion_curve_inversion). Since dccurve is written in Fortran, you have to make it executable in Python. Go to the dccurve folder and type the f2pycommands.sh in a command window. This will create a new file called dccurve.cpython-3xx....so. This new file can be loaded as python package. Use the test.py script in that folder to test whether it works. If everything works fine, copy the dccurve.cpython... file to the baytomo3d folder.
 If the f2py compilation fails, it may be that you are missing some libraries or the right Qt version. The best option is probably to install dccurve from scratch from the geopsy homepage. Afterwards, all libraries should be present. dccurve is faster than pysurf96. To switch between the two options, check the __if else__ statement at the beginning of the SurfaceWaveModule.py file.
 
-Once these packages are installed, the tomography scripts simply have to be copied to the folder where they are supposed to be executed. Keep the original folder structure, so that you have a working folder where you keep the run_....py scripts and a subfolder called baytomo3d where the program scripts are kept. You can execute the program from a console window by typing
+Once these packages are installed, the tomography scripts simply have to be copied to the folder where they are supposed to be executed. Keep the original folder structure, so that you have a working folder in which you exectute the run_....py scripts and a subfolder called baytomo3d where the program scripts are kept. You can execute the program from a console window by typing
 
 _starting a model search_
 ```bash
@@ -85,10 +85,10 @@ A collection on functions necessary to calculate the ray paths.
 
 There are two example files in the folder
 
-__run_baytomo3d_joint.py__
+__run_baytomo3d_joint.py__  
 __run_baytomo3d_bodywaves_only.py__
 
-These examples use subsets of the original datasets used in the publication of Kaestle et al., 2024. Have a look at the user defined parameters at the beginning of each example script. The input data format is explained there as well. Make sure that the run script you want to execute is in the same folder as the baytomo3d folder. It is then recommended running these examples with
+These examples use subsets of the original datasets used in the publication of Kaestle et al., 2024. Have a look at the user defined parameters at the beginning of each example script. The input data format is explained there as well. Make sure that you do not change the folder structure: The baytomo3d folder has to be a subdirectory of your working directory from which you exectute the run script. It is then recommended running these examples with
 ```bash
 mpirun -np 4 python run_baytomo3d_...py
 ```
