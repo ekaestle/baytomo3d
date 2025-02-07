@@ -1,16 +1,24 @@
-# 3D Transdimensional Reversible Jump McMC Tomography
+# baytomo3d - 3D Transdimensional Reversible Jump McMC Tomography
 
-This Python program implements a rj-McMC model search for a 3D seismic tomographic model. The input data can be surface-wave phase travel times (fundamental mode, Love and Rayleigh) or teleseismic body-wave travel times (P, Pdiff, S, SKS). Other surface wave types/modes or other body wave phases can be implemented by modifications in the SurfaceWaveMoudle.py or the BodyWaveModule.py.
-
-**Alpine crust and mantle structure from 3D Monte Carlo surface- and body-wave tomography (Kästle et al., 2025, JGR Solid Earth)** - [open acces]
-
-The scripts are not fully documented, unfortunately. Some options are still under development and thus not yet properly described. If you plan to use these scripts in your work, please cite the article above. The functionality of the program goes beyond what is published in the article, there are different options that were not used (wavlets, parallel tempering, etc.). Many of those are still in an experimental stage. Feel free to contact Emanuel Kaestle (emanuel.kaestle@fu-berlin.de) if you plan to use this program.
+This Python program implements a rj-McMC model search for a 3D seismic tomographic model. The input data can be surface-wave phase travel times (fundamental mode, Love and Rayleigh) or teleseismic body-wave travel times (P, Pdiff, S, SKS). Other surface wave types/modes or other body wave phases can be implemented by modifications in the SurfaceWaveMoudle.py or the BodyWaveModule.py. To get started, have a look at the associated article and at the example directory. Most of the program functionalities are explained in the __run_baytomo3d.py__ script directly. If you plan to use the code in your work, please see the citation statement below. The functionality of the program goes beyond what is published in the article, there are different options that were not used (wavlets, parallel tempering, etc.). Many of those are still in an experimental stage. The scripts are not fully documented, unfortunately. Some options are still under development and thus not yet properly described. Feel free to contact Emanuel Kaestle if you plan to use this program (contact information below).
 
 The general workflow looks like the following
 
-![workflow](imgs/baytomo3d_workflow.pdf)
+![workflow](imgs/baytomo3d_workflow.png)
 
-The code is based on previous works by Malcom Sambridge, Thomas Bodin and others. Please refer to the above cited article for a proper list of references.
+The code is based on previous works by Malcom Sambridge, Thomas Bodin and others. The user is referred to the article cited below for a proper list of references.
+
+## Citation
+
+Main article (open access)
+Kästle, E.D.; Paffrath, M.; El-Sharkawy, A. (2025). Alpine crust and mantle structure from 3D Monte Carlo surface- and body-wave tomography. JGR Solid Earth, https://doi.org/10.1029/2024JB030101
+
+Code
+Kästle, E.D. (2025). baytomo3d - 3D Transdimensional Reversible Jump McMC Tomography. GFZ Data Services. https://doi.org/10.5880/fidgeo.2025.011
+
+3D Alpine Model
+Kästle, E.D.; Paffrath, M.; El-Sharkawy, A. (2025). Subsurface Vp and Vs model of crust and upper mantle under the Alps. GFZ Data Services. https://doi.org/10.5880/fidgeo.2025.009
+
 
 ## Datasets
 
